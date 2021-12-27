@@ -7,13 +7,12 @@ public class cameraSpin : MonoBehaviour
 
     public GameObject cam;
     public float spinAmount;
-    // Start is called before the first frame update
+  
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
          cam.transform.Rotate(0,spinAmount,0);

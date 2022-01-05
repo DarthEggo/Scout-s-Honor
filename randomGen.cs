@@ -91,7 +91,9 @@ public class randomGen : MonoBehaviour
             z += 25;
             randomA = Random.Range(0,3);
             if(randomA == 0)
+            {
             Instantiate(ground1, new Vector3(0, 1, z), Quaternion.identity);
+            }
             if (randomA == 1)
             {
                 Instantiate(ground2, new Vector3(0, -3, z), Quaternion.identity);
